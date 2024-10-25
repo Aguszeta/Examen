@@ -1,0 +1,41 @@
+.tabla-contenedor {
+    width: 600px;
+    height: 600px;
+    overflow-y: scroll;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.table-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+.table-grid-item {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bisiesto {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+.no-bisiesto {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+.note-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #495057;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+}
+.note-text strong {
+    color: #007bff;
+}
